@@ -25,7 +25,7 @@ pub fn get_printers() -> Vec<printer::Printer> {
             
             let printer_data: Vec<&str> = line.split_ascii_whitespace().collect();
             
-            println!("{:?}", printer_data);
+            println!("{:?}", line);
             
             if printer_data.len() == 0 {
             continue;
